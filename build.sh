@@ -43,7 +43,7 @@ fi
 # Get mruby
 if [ ! -d "mruby" ]
 then
-    wget https://github.com/mruby/mruby/archive/2.1.2.tar.gz -O mruby.tar.gz
+    wget https://github.com/mruby/mruby/archive/3.0.0.tar.gz -O mruby.tar.gz
     tar xf mruby.tar.gz && rm mruby.tar.gz
     mv mruby* mruby
 fi
