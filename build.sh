@@ -7,10 +7,10 @@
 set -e
 
 # Set optimization level
-export CFLAGS="-O3 -g0"
-export CXXFLAGS="-O3 -g0"
-export CPPFLAGS="-O3 -g0"
-export LDFLAGS="-O3 -g0"
+#export CFLAGS="-O3 -g0"
+#export CXXFLAGS="-O3 -g0"
+#export CPPFLAGS="-O3 -g0"
+#export LDFLAGS="-O3 -g0"
 
 # Make deps folder
 mkdir -p deps
