@@ -378,6 +378,8 @@ if(APPLE)
 	)
 endif()
 
+add_subdirectory(deps/mruby)
+
 link_directories(
 	deps/libsigc++/sigc++/.libs
 	deps/pixman/pixman/.libs
