@@ -1101,8 +1101,8 @@ var mappingArray = [
 ["graphics/transitions/020-flat01", "Graphics/Transitions/020-Flat01.png?h=94dd9f75005cdc7236a0b400b71920fd"],
 ["graphics/windowskins", "Graphics/Windowskins?h="],
 ["graphics/windowskins/windowskin_kn", "Graphics/Windowskins/Windowskin_kn.png?h=6ad592d1b718424e634dda8f7b96aac2"],
-["bitmap-map", "bitmap-map.js?h=3a9a284d7f7e92573071ba601663187f"],
-["mapping", "mapping.js?h=cdc6bbb1a2e881d5aea8aa6e1d4f8ee3"],
+["bitmap-map", "bitmap-map.js?h=9b04b0b2c8fb0b3807efb5a760011ddd"],
+["mapping", "mapping.js?h=e72f36aaf5332a95d31851e44f14391f"],
 ["rgss", "rgss.rb?h=e4f6ce1cd6617eedd6e4704cfd0d263b"],
 ];
 
