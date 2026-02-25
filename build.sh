@@ -42,8 +42,8 @@ then
     git clone https://github.com/emscripten-core/emsdk.git
     cd emsdk
     git pull
-    ./emsdk install 3.1.0
-    ./emsdk activate 3.1.0
+    ./emsdk install 3.1.20
+    ./emsdk activate 3.1.20
     cd ..
 fi
 
@@ -56,13 +56,12 @@ export EM_CONFIG="$EMSDK/.emscripten"
 if [ ! -f "libsigc++/sigc++/.libs/libsigc-2.0.a" ]
 then
     cd libsigc++
-    emconfigure ./autogen.sh
-    emconfigure ./configure --enable-static --disable-shared
+    emconfigure ./autogen.sh --host=wasm32-unknown-emscripten || true
+    emconfigure ./configure --host=wasm32-unknown-emscripten --enable-static --disable-shared
     emmake make clean
     emmake make -j4 || true
     cd ..
 fi
-
 # Build pixman
 if [ ! -f "pixman/pixman/.libs/libpixman-1.a" ]
 then
