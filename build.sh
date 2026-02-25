@@ -42,8 +42,8 @@ then
     git clone https://github.com/emscripten-core/emsdk.git
     cd emsdk
     git pull
-    ./emsdk install 3.1.20
-    ./emsdk activate 3.1.20
+    ./emsdk install 3.1.10
+    ./emsdk activate 3.1.10
     cd ..
 fi
 
